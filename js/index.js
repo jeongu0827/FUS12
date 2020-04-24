@@ -40,7 +40,7 @@ var menu_items     = null;
 function init() {
   // 문서 객체 접근 참조
   accessingDOMElements();
-  // 오프캔버스 메뉴 접근성
+  // 오프캔버스 메뉴 키보드 접근성
   a11yOffCanvasMenu(app_navigation);
   // 이벤트 바인딩
   bindEvents();
@@ -106,7 +106,7 @@ init();
 
 
 // -----------------------------------------------------------------
-// 오프캔버스 메뉴 접근성
+// 오프캔버스 메뉴 키보드 접근성
 // -----------------------------------------------------------------
 function a11yOffCanvasMenu(app_navigation) {
   
